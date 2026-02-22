@@ -1,0 +1,10 @@
+[PC_Chryssalid_Class X2SoldierClassTemplate]
++DisplayName="Chryssalid"
++ClassSummary="A friendly neighborhood Chryssalid."
++LeftAbilityTreeTitle="Chryssalid"
++RightAbilityTreeTitle="Chryssalid"
++AbilityTreeTitles[0]="Chryssalid"
++AbilityTreeTitles[1]="Chryssalid"
++AbilityTreeTitles[3]="XCOM"
+;ALPHABETICAL ORDER
++RandomNickNames[0]="Chryssalid"
