@@ -1,10 +1,15 @@
 [PC_Chryssalid_Class X2SoldierClassTemplate]
-+DisplayName="Chryssalid"
-+ClassSummary="A friendly neighborhood Chryssalid."
-+LeftAbilityTreeTitle="Chryssalid"
-+RightAbilityTreeTitle="Chryssalid"
-+AbilityTreeTitles[0]="Chryssalid"
-+AbilityTreeTitles[1]="Chryssalid"
-+AbilityTreeTitles[3]="XCOM"
+DisplayName="Chryssalid"
+ClassSummary="A friendly neighborhood Chryssalid."
+LeftAbilityTreeTitle="Chryssalid"
+RightAbilityTreeTitle="Chryssalid"
+AbilityTreeTitles[0]="Chryssalid"
+AbilityTreeTitles[1]="Chryssalid"
+AbilityTreeTitles[3]="XCOM"
 ;ALPHABETICAL ORDER
-+RandomNickNames[0]="Chryssalid"
+RandomNickNames[0]="Chryssalid"
+
+[PC_ChryssalidSlash X2AbilityTemplate]
+LocFriendlyName="Chryssalid Slash"
+LocLongDescription="A melee attack that can poison the target."
+LocHelpText="Attack a melee target with your claws, potentially poisoning them."

@@ -39,15 +39,15 @@ exec function AddChryssalidSquaddie()
 		if(!NewSoldierState.HasBackground())
 			NewSoldierState.GenerateBackground();
 		NewSoldierState.GiveRandomPersonality();
-		NewSoldierState.ApplyInventoryLoadout(NewGameState);
+		NewSoldierState.ApplyInventoryLoadout(NewGameState, 'PC_Chryssalid_Loadout');
 		NewSoldierState.SetHQLocation(eSoldierLoc_Barracks);
 		NewSoldierState.SetCharacterName("Chryssalid", "Spawn", "Skitter");
 		NewSoldierState.SetCountry('Country_Spark');
 		XComHQ = XComGameState_HeadquartersXCom(NewGameState.ModifyStateObject(class'XComGameState_HeadquartersXCom', XComHQ.ObjectID));
 		XComHQ.AddToCrew(NewGameState, NewSoldierState);
-		NewSoldierState.RankUpSoldier(NewGameState, 'PC_Chryssalid_Class');
-		NewSoldierState.ApplySquaddieLoadout(NewGameState, XComHQ);
-		NewSoldierState.ApplyBestGearLoadout(NewGameState);
+		//NewSoldierState.RankUpSoldier(NewGameState, 'PC_Chryssalid_Class');
+		//NewSoldierState.ApplySquaddieLoadout(NewGameState, XComHQ);
+		//NewSoldierState.ApplyBestGearLoadout(NewGameState);
 		NewSoldierState.SetXPForRank(1);
 		NewSoldierState.SetKillsForRank(0);
 

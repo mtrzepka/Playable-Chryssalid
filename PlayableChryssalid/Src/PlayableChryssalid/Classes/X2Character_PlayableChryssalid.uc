@@ -50,6 +50,7 @@ static function X2CharacterTemplate CreateTemplate_PlayableChryssalid()
 	CharTemplate.bIsAdvent = false;
 	CharTemplate.bIsCivilian = false;
 	CharTemplate.bIsSoldier = true;
+	CharTemplate.bIsChosen = false;
 
 	CharTemplate.bIsPsionic = false;
 	CharTemplate.bIsRobotic = false;
@@ -66,7 +67,6 @@ static function X2CharacterTemplate CreateTemplate_PlayableChryssalid()
 	//CharTemplate.Abilities.AddItem('ChryssalidSlash');
 	CharTemplate.Abilities.AddItem('ChryssalidBurrow');
 	CharTemplate.Abilities.AddItem('Evac');
-	CharTemplate.Abilities.AddItem('HunkerDown');
 
 	CharTemplate.strTargetIconImage = class'UIUtilities_Image'.const.TargetIcon_Alien;
 
@@ -106,6 +106,7 @@ static function X2CharacterTemplate CreateTemplate_PlayableChryssalidCocoon(Name
 	CharTemplate.bIsPsionic = false;
 	CharTemplate.bIsRobotic = false;
 	CharTemplate.bIsSoldier = false;
+	CharTemplate.bIsChosen = false;
 
 	CharTemplate.bCanBeTerrorist = false;
 	CharTemplate.bCanBeCriticallyWounded = false;

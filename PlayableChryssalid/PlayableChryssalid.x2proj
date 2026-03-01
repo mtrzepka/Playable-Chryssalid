@@ -23,6 +23,9 @@
     <Content Include="Config\XComClassData.ini">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Config\XComContent.ini">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Config\XComGameData.ini">
       <SubType>Content</SubType>
     </Content>
@@ -33,6 +36,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Config\XComStrategyTuning.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\XComGame.int">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ReadMe.txt" />
@@ -47,7 +53,13 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Src\PlayableChryssalid\Classes\X2DownloadableContentInfo_PlayableChryssalid.uc" />
+    <Content Include="Src\PlayableChryssalid\Classes\X2Effect_PCParthenogenicPoison.uc">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Src\PlayableChryssalid\Classes\X2Tech_PlayableChryssalid.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PlayableChryssalid\Classes\XComGameState_Effect_PCPoison.uc">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>
